@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1687546406909,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.3522657dee1f10da.js",
+        "/manifest.webmanifest",
+        "/polyfills.ac4841e3bd705649.js",
+        "/runtime.da21758451dfb82d.js",
+        "/styles.57d63e10e61e1877.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/Cemu.jpg",
+        "/assets/banner.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/ps1.png",
+        "/assets/ps2.jpg",
+        "/banner.45d73504700ebf28.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/Cemu.jpg": "79236b7ab9163edf4347cb7895b7a4f28df85a57",
+    "/assets/banner.jpg": "92da89c94ec27a1162668f260ffded0b6b216c3c",
+    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/assets/ps1.png": "70c37e5d6b0f6fc114e6b3db89695fcce2036d18",
+    "/assets/ps2.jpg": "b925a0424ed987c9d2e1e2b6dfe1dba88f90866b",
+    "/banner.45d73504700ebf28.jpg": "92da89c94ec27a1162668f260ffded0b6b216c3c",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "fa1b28ba510f24d99658b68a0984e772bd20cf4d",
+    "/main.3522657dee1f10da.js": "0ecac5976ffabce4f2d6f69551a6ac7bcec5de93",
+    "/manifest.webmanifest": "a6f6ac8c6d0629817c303b82a45ac445ff7d2c32",
+    "/polyfills.ac4841e3bd705649.js": "aa1e1e06eac049ca49de9550700ed59d969e14e6",
+    "/runtime.da21758451dfb82d.js": "e141900b3eb1227c648d8166c8a4179c50994e51",
+    "/styles.57d63e10e61e1877.css": "df93352442d96d43b3d3d51e60179392d7aa849d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
